@@ -1,0 +1,11 @@
+#this-rule-will-fail {
+  color: red;
+}
+
+.this-rule-wont-fail {
+  color: green;
+
+  #but-this-one-will {
+    color: red;
+  }
+}

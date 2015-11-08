@@ -1,0 +1,16 @@
+#this-rule-will-fail {
+  color: red;
+}
+
+.this-rule-wont-fail {
+  color: green;
+}
+
+.this-rule-should-fail-too #because-of-this-id {
+  color: red;
+}
+
+.and-this,
+#will-fail-too {
+  color: red;
+}
